@@ -1,4 +1,4 @@
-### Project Team Name uninterested-ocean-1026
+### Project Team Name uninterested-ocean-1026 (Unit 3 JS211 Block-18)
 
 ![Logo](https://d2v8elt324ukrb.cloudfront.net/static/riotuikit/images/logo.c72056a22f91.png)
 
