@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./cartPage.css" />
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles\subdiv.css">
+    <link rel="stylesheet" href="styles\signu.css">
+    <link rel="stylesheet" href="styles\login.css">
+    <link rel="stylesheet" href="styles\log2.css">
+    <link rel="stylesheet" href="styles\logout.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="../silly-authority-4051-fp03_158-Day-5/css/nav.css">
+    <style>
+
+        #img{
+            height: auto;
+            width: auto;
+        }
+
+        #hotels{
+            width: 50%;
+            height: auto;
+            
+        }
+        #cartInNav{
+            position: absolute;
+        }
+        .grid > div {
+            /* border: 1px solid black; */
+            height: auto;
+
+            /* margin: auto; */
+        }
+
+.grid {
+  display: grid;
+  width: 50%;
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.one>img{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+.two>img{
+    width: 100%;
+    height: auto;
+}
+.three>img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+@media (min-width: auto) {
+  .one {
+    grid-row: 1/3;
+  }
+}
+
+.three {
+  grid-column: 1/3;
+}
+@media (min-width: auto) {
+  .three {
+    grid-column: 2/3;
+  }
+}
+</style>
+  </head>
+  <body>
+                                    <!-------------- HEADER ----------------->
+    <div id="container">
+
+    </div>
+
+                                    <!---------- BODY --------------->
+
+
+    <div id="cartInNav">
+        <div id="CartPage">
+            <img id="image" src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="cart"/>
+            <div>
+              <button id="logintext" style="text-decoration: none">Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="CartSection">
+        <div id="">
+            <div class="CartPage">
+              
+            </div>
+            
+          </div>
+          <div id="Price_rotate">
+          <button id="totalpriceShow" class="btn">0</button>
+          </div>
+          <div id="mainCartContantPagr">
+          <div id="st">
+          <div id="lef"></div>
+          <div id="rig">
+             <div id="tt">
+                <div>Order Summary</div>
+                <div>
+                  <img style="display: flex; margin-top: 40%; justify-content: left;  justify-content: center; height: 50px; width: 60px;" src="https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg"/>
+      
+                  <input style="margin-left: -48%;" type="date" placeholder="CheckIn Date"/>
+                  <label for="">CheckIn Date</label>
+                  <input type="date" style="margin-left: -47%; margin-top: 5%;" placeholder="CheckOut Date"/>
+                </div>
+      
+                <div>
+                   <div>Total Booking </div>
+                   <div id="tItem" style: "font-size: 20px; text-align: center;">2</div>
+                </div>
+                <div>
+                   <div>Total Price -</div>
+                   <div id="total">$2000</div>
+                </div>
+             </div>
+             <div id="mim">
+                <div>Apply Promo Code</div>
+                <form id="apply">
+                   <input id="promo" type="text">
+                   <input type="submit" value="APPLY">
+                </form>
+                <div>To get 30% Off, use <span> SOmething </span></div>
+             </div>
+      
+             <!-- <button id="btn123">BC</button> -->
+             <div id="dd" "><a href="./addressPage.html" style="text-decoration: none;"> CheckOut</a></div>
+             
+          </div>
+       </div>
+            
+            <div id="CloseCartBtn">
+              <img
+                id="closeTheimgTagClose"
+                src="https://atlona.com/wp-content/uploads/2016/08/close-button.png"
+                alt="close"
+              />
+            
+            </div>
+            <button id="proceedto_checkout">S U B M I  T</button>
+          </div>
+       </div>
+        
+    </div>
+
+    <div class='grid'>
+
+        <div class="one">
+            
+            <img src="https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/16077992/8fecb32154d611ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg" alt="">
+        </div>
+      
+        <div class="two">
+            <img src="https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/16077992/83cd133d54d611ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg" alt="">
+        </div>
+        <div class="three">
+            <img src="https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/16077992/51ec251f54d611ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg" alt="">
+        </div>
+      
+    </div>
+
+                                <!-------- FOOTER SECTION -------->
+    <div id="footer">
+
+    </div>
+
+
+  </body>
+</html>
+
+
+
+<script src="./cartPage.js" type="module"></script>
+
+
+<script>
+import navbar from "../components/navbar.js";
+
+document.getElementById("container").innerHTML= navbar();
+
+</script>
+<script src="./scripts/index.js" type="module"></script>
+
+<script src="./components/navbar.js" type="module"></script>

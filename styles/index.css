@@ -1,0 +1,371 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: ProximaNovaLight, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#navbar{
+    display: flex;
+    height:60px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(38,38,38);
+    
+}
+#navbar>div:first-child>img{
+    height: 42%;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+#navbar>div>svg:first-child{
+    margin-top: 16px;
+}
+#navbar>div>span{
+    color: whitesmoke;
+}
+
+#searchbar>div>img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: rgba(0,0,0,0.8);
+
+   backdrop-filter: saturate(10%) blur(10px);
+   -webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(2px);
+}
+
+#searchbar>div:last-child{
+    position: absolute;
+    top: 25%;
+    color: rgb(255,255,255);
+    left: 20%;
+    font-family: ProximaNovaLight, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+input{
+    padding: 10px;
+    margin-left: 0px;
+}
+#inputbox{
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#guests{
+    padding: 10px;
+    margin-left: 0px;   
+
+}
+#searchbutton{
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(31,135,240);
+    color: whitesmoke;
+}
+#location{
+    width: 250px;
+}
+#slider{
+    margin-top: 50px;
+}
+#investment{
+    margin-top: 100px;
+
+}
+#middle{
+    margin-top: 50px;
+    height: 650px;
+}
+#slides{
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+}
+#slides>div:first-child{
+    width: 5%;
+}
+#slides>div:last-child{
+    width: 5%;
+}
+.midc{
+    width: 20%;
+}
+#slides>div>img{
+    height: 150px;
+    width: 200px;
+}
+#forward{
+    cursor: pointer;
+    font-size: 36px;
+ 
+}
+#backward{
+    cursor: pointer;
+    font-size: 36px;
+}
+#middle{
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+#sliderh3{
+    margin-left: 140px;
+    color: rgb(193,193,193);
+}
+#centerone{
+    width: 30%;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+#centertwo{
+    width: 60%;
+}
+#centerone>div>div>img{
+    width: 50px;
+    height: 50px;
+}
+#centerone>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#h3center{
+    text-align: center;
+    color: rgb(193,193,193);
+}
+.centertag{
+    color: rgb(110,110,110);
+}
+#centertwo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    margin-top: 20px;
+    
+}
+.midc{
+    cursor: pointer;
+}
+.centerimg{
+ width: 200px;
+ height: 150px;
+ background: rgba(0,0,0,0.8);
+ backdrop-filter: saturate(10%) blur(10px);
+ -webkit-filter: blur(5px);
+ -moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(2px);
+
+}
+.centerdiv{
+    position: absolute;
+    cursor: pointer;
+}
+.place{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+.city{
+    position: relative;
+    top: 7%;
+    left: 30%;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+#investment{
+    display: flex;
+
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#investment>div:last-child{
+    width: 48%;
+    margin-right: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 250px;
+}
+#investment>div:first-child{
+    width: 48%;
+    margin-left: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 250px;
+}
+#investment>div>div{
+    margin-left: 10px;
+}
+#investment>div>div:last-child{
+    text-align: center;
+}
+#investdiv{
+  display: flex;
+  
+}
+#userdiv{
+    display: flex; 
+}
+#userdiv>div>img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#investment button{
+   padding: 10px;
+   background-color: rgb(28,135,239);
+   color: rgb(250,253,254);
+   border: none;
+   cursor: pointer;
+}
+#investment h3{
+    color: rgb(107,107,107);
+    text-align: center;
+}
+#investment p{
+    color: rgb(107,107,107);
+}
+#investdiv>div>img{
+    width: 50px;
+    height: 50px;
+    
+}
+#investdiv>div{
+    text-align: center;
+    cursor: pointer;
+}
+#userdiv>div{
+    text-align: center;
+    cursor: pointer;
+}
+
+#bottomslider{
+    display: flex;
+    width: 100%;
+    margin: 50px;
+   
+    margin-left: 80px;
+}
+#bottomslider>div:first-child{
+ width: 2%;
+}
+#bottomslider>div:last-child{
+    width: 2%;
+}
+
+.bottomc{
+    width: 17%;
+}
+#bottomslider>div>div>img{
+    height: 150px;
+    width: 200px; 
+    background: rgba(0,0,0,0.8);
+ backdrop-filter: saturate(10%) blur(10px);
+ -webkit-filter: blur(5px);
+ -moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(2px);
+}
+.bottomimg{
+    position: absolute;
+
+}
+.bottomp{
+    position: relative;
+    top: 50%;
+ 
+    color: rgb(255,255,255);
+    text-align: center;
+}
+#h3{
+    color: rgb(107,107,107);
+    margin-left: 130px;
+    margin-bottom: -40px;
+}
+#bottoms{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+#h3last{
+    margin-left: 100px;
+    color: rgb(107,107,107);
+}
+#lower{
+    display: flex;
+}
+#lower>div{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#lower>div>p{
+    color: rgb(191,191,191);
+}
+#lower>div:first-child{
+    margin-left: 100px;
+}
+hr{
+    margin-top: -5px;
+    width: 90%;
+    margin: auto;
+    margin-top: -10px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    margin-left: 50px;
+}
+#container>div>h4{
+    color: rgb(191,191,191);
+    text-align: center;
+}
+#container>div>p{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+/* ////css for signup login sub div */
+
+#gemen{
+    position: relative;
+
+}
+
+#sub_di{
+    position: absolute;
+    
+}
+
+#gemen .show{
+    display: block;
+    display: flex;
+}
+
+

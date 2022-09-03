@@ -1,0 +1,141 @@
+let data = [{
+    "name" : "1.5 Bhk Ac Apartment In Dabolim",
+    "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/65507480/2-luxury-villas-for-rent-in-candolim_watermarked_image_1024.jpeg",
+    "Price" : 98560.00,
+    "nights" : "17",
+    "RefID" : "#18542127",
+    "Address" : "Goa Dabolim, Goa, India",
+    "Type" : "APARTMENT2 BEDROOMS2 BATHROOMSMAX 4 GUESTSTVAC",
+    "RefundType" : "NON REFUNDABLE CANCELLATION POLICY "
+},
+{
+    "name" : "Spacious 2 Bhk Apartment In Tata Rio",
+    "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/65507480/17-family-villas-in-goa-for-rent_watermarked_image_1024.jpeg",
+    "Price" : 103488.00,
+    "nights" : "17",
+    "RefID" : "#10055185",
+    "Address" : "De Goa Dabolim, Goa, India",
+    "Type" : "APARTMENT2 BEDROOMS2 BATHROOMSMAX 4 GUESTS",
+    "RefundType" : "COMMON CANCELLATION POLICY"
+},
+{
+     "name" : "Ac Studio In Dabolim",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/20693709/4cdf89db45dc11ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" : 43120.00,
+      "RefID" : "#16077992",
+      "Address" :"Goa Dabolim, Goa, India",
+      "Type" : "STUDIOMAX 2 GUESTSTVAC",
+      "RefundType" : "COMMON CANCELLATION POLICY"
+},
+{
+     "name" : "1 Bhk Ac Apartment In Dabolim",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/65507480/30-3-bedrooms-luxury-holiday-villas-in-candolim_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" : 60368.00,
+      "RefID" : "#42230422",
+      "Address" :"Dabolim, Goa, India",
+      "Type" : "APARTMENT1 BEDROOMS1 BATHROOMSMAX  2 GUESTSTVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+{
+    "name" : "Ac 2 Bedroom Apartment In Dabolim",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/65507480/28-budget-holidays-in-goa_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" : "120736.00",
+      "RefID" : "#97856648",
+      "Address" :"Dabolim, Goa, India",
+      "Type" : "APARTMENT2 BEDROOMS2 BATHROOMSMAX 6 GUESTSTVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "2 Bhk Ac Apartment In Dabolim",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/97856648/5522aa773dd311ebbcb50a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "Price" :103488.00,
+      "nights" : "17",
+      "RefID" : "#28383802",
+      "Address" :"Dabolim, Goa, India",
+      "Type" : "APARTMENT2 BEDROOMS2 BATHROOMSMAX 6 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY "
+},
+{
+     "name" : "Ac 3 Bedroom Apartment In Dabolim",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/97856648/e35a58d13dd211ebbcb50a5f3ca25ae5_watermarked_image_1024.jpeg",
+       "nights" : "17",
+      "Price" :153999.00,
+      "RefID" :  "#45545109",
+      "Address" :"Dabolim, Goa, India",
+      "Type" : "APARTMENT3 BEDROOMS2 BATHROOMSMAX 8 GUESTSWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY "
+},
+{
+     "name" : "3 Bhk Bungalow At Mapusa, Goa!!",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/97856648/e5b343ef3dd211ebbcb50a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "Price" : 5653.00,
+      "nights" : "17",
+      "RefID" : "#48556786",
+      "Address" :"Mapusa, Goa, India",
+      "Type" : "VILLA3 BEDROOMS3 BATHROOMSMAX 14 GUESTSWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "Phase 3 & 4 - 6Bhk Villa With Private Pool, Foosball, Carrom And Pool Table",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/20693709/4cdf89db45dc11ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" :34206.00,
+      "RefID" : "#20693709",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "VILLA6 BEDROOMS4 BATHROOMSMAX 18 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "Villa Calangute Phase 11 - 4 Bedrooms Private Villa In Calangute",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/20693709/9a64baa945ec11ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" :22249.00,
+      "RefID" : "#22996525",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "VILLA4 BEDROOMS4 BATHROOMSMAX 12 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "9 Bedroom Luxury Beach Villa With A Private Swimming Pool",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/20693709/fa7e251e45ec11ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" : 48773.00,
+      "RefID" : "#27528556",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "VILLA9 BEDROOMS9 BATHROOMSMAX 30 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "Private 6 Bedroom Villa With Swimming Pool",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/24268748/bc4455611df611ed95990a502e75b4a7_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" :27394.00,
+      "RefID" : "#24268748",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "VILLA6 BEDROOMS5 BATHROOMSMAX 19 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+{
+     "name" : "Villa Calangute Phase 17 W/Private Pool, Jacuzzi, Badminton/Basketball, Gazebo, Parking & Garden",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/24268748/3-img_3990_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" :57324.00,
+      "RefID" : "#25009945",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "VILLA12 BEDROOMS12 BATHROOMSMAX 36 GUESTSSWIMMING POOLWIFITVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+},
+
+{
+     "name" : "4 Bhk Private Villa With Swimming Pool",
+      "Img" : "https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_watermarked_1024/24268748/6ab71a6d389a11ec8f4f0a5f3ca25ae5_watermarked_image_1024.jpeg",
+      "nights" : "17",
+      "Price" :40366.00,
+      "RefID" : "#22476138",
+      "Address" :"Calangute, Goa, India",
+      "Type" : "RESORT4 BEDROOMS4 BATHROOMSMAX 12 GUESTSSWIMMING POOLTVAC",
+      "RefundType" : "NON REFUNDABLE CANCELLATION POLICY"
+}];
